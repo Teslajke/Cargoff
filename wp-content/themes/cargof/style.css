@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
 
-/* Обычный */
+/* ÃÅ¾ÃÂ±Ã‘â€¹Ã‘â€¡ÃÂ½Ã‘â€¹ÃÂ¹ */
 @font-face {
   font-family: "Century Gothic";
   font-style: normal;
@@ -11,7 +11,7 @@
     url("fonts/centurygothic.ttf") format("ttf");
 }
 
-/* Жирный */
+/* Ãâ€“ÃÂ¸Ã‘â‚¬ÃÂ½Ã‘â€¹ÃÂ¹ */
 @font-face {
   font-family: "Century Gothic";
   font-style: normal;
@@ -1790,8 +1790,10 @@ input._error {
 
 .services__card img {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 15px !important;
+  right: 10px !important;
+  max-width: 135px !important;
+  height: auto !important;
 }
 
 .services__card:nth-child(1) .services__text {
@@ -2197,8 +2199,8 @@ input._error {
   .services__card:nth-child(3) img {
     max-width: 135px;
     height: 113px;
-    bottom: 16px;
-    right: 8px;
+    /* bottom: 16px; */
+    /* right: 8px; */
   }
 
   .services__card:nth-child(4) img {
@@ -2211,8 +2213,8 @@ input._error {
   .services__card:nth-child(5) img {
     max-width: 188px;
     height: 174px;
-    bottom: 6px;
-    right: -30px;
+    /* bottom: 6px; */
+    /* right: -30px; */
   }
 
   .services__card:nth-child(6) img {
@@ -2329,10 +2331,11 @@ input._error {
   width: 100%;
   height: 309px;
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
   background-color: #f5f5f5;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .link-card__inner {
@@ -2365,7 +2368,7 @@ input._error {
 
 .tab-color {
   color: #fff;
-  background-color: #2f2fc0; /* Любой стиль, который вы хотите применить к активной кнопке */
+  background-color: #2f2fc0; /* Ãâ€ºÃ‘Å½ÃÂ±ÃÂ¾ÃÂ¹ Ã‘ÂÃ‘â€šÃÂ¸ÃÂ»Ã‘Å’, ÃÂºÃÂ¾Ã‘â€šÃÂ¾Ã‘â‚¬Ã‘â€¹ÃÂ¹ ÃÂ²Ã‘â€¹ Ã‘â€¦ÃÂ¾Ã‘â€šÃÂ¸Ã‘â€šÃÂµ ÃÂ¿Ã‘â‚¬ÃÂ¸ÃÂ¼ÃÂµÃÂ½ÃÂ¸Ã‘â€šÃ‘Å’ ÃÂº ÃÂ°ÃÂºÃ‘â€šÃÂ¸ÃÂ²ÃÂ½ÃÂ¾ÃÂ¹ ÃÂºÃÂ½ÃÂ¾ÃÂ¿ÃÂºÃÂµ */
 }
 
 #more-text {
@@ -2620,7 +2623,8 @@ input._error {
 
   .offer__card:nth-child(1) img,
   .offer__card:nth-child(2) img,
-  .offer__card:nth-child(3) img {
+  .offer__card:nth-child(3) img,
+  .offer__card:nth-child(4) img {
     max-width: 28px;
     height: 28px;
   }
@@ -2634,7 +2638,7 @@ input._error {
   }
 
   .link-card__text {
-    max-width: 100px;
+    /* max-width: 100px; */
   }
 }
 
@@ -3355,12 +3359,13 @@ input._error {
 
   .feedback__title {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 50px;
   }
 
   .feedback__img {
     width: 124px;
-    height: 35px;
+    /* height: 35px; */
+    /* padding-top: 5px; */
   }
 
   .feedback__text {
