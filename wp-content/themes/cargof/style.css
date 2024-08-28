@@ -2431,19 +2431,9 @@ input._error {
     letter-spacing: -0.02em;
   }
 
-  .offer__card:nth-child(1) img {
-    width: 38px;
-    height: 34px;
-  }
-
-  .offer__card:nth-child(2) img {
+  .offer__card img {
     width: 34px;
     height: 34px;
-  }
-
-  .offer__card:nth-child(3) img {
-    width: 33px;
-    height: 28px;
   }
 
   .offer__card-inner {
@@ -2598,7 +2588,7 @@ input._error {
   }
 
   .offer__card {
-    height: 216px;
+    height: 231px;
     padding: 24px 7px 24px 16px;
   }
 
@@ -3279,7 +3269,7 @@ input._error {
 
 .feedback__img {
   width: 184px;
-  height: 52px;
+  /* height: 52px; */
 }
 
 .feedback__text {
@@ -4526,5 +4516,12 @@ input._error {
   .breadcrumbs,
   .breadcrumbs__title {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 378px) {
+  .offer__cards .offer__card,
+  .offer__cards .offer__link-card {
+    height: 250px;
   }
 }
