@@ -16,7 +16,7 @@ $mail->CharSet = 'UTF-8';
 // $mail->Username   = "";
 // $mail->Password   = "";
 
-$mail->setFrom('test@testtt.space');   
+$mail->setFrom('test@scmgl.ru');   
 $mail->addAddress('tps_szfo01@scmgl.ru');
 
 $mail->isHTML(true);
